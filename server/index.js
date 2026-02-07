@@ -19,7 +19,7 @@ const app = express()
 // app.use(limiter)
 app.use(cors({
 origin: process.env.NODE_ENV === 'production'
-? 'https://fullstack-todo-practice-client-go0kprlbg.vercel.app'
+? 'https://fullstack-todo-practice-client.vercel.app'
 : 'http://localhost:3000',
 credentials: true
 }));
